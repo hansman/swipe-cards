@@ -1,9 +1,11 @@
-# Build
+# Mobile User Interface Challenge
+
+## Build
 - `npm install`
 - `react-native run-ios` or
 - `react-native run-android`
 
-# Checklist
+## Checklist
 
 - [x] react-native app for ios (`index.io.js`)
 - [x] react-native app for android (`index.android.js`)
@@ -22,5 +24,8 @@
 - [x] card render error handling
 - [x] cards fetch error handling
 
-# Test
+## Test
 The app is tested on iphone6, iphone7 and iphone7+. It should work on android as is, however, has not been tested yet. There are no unit tests yet.
+
+## Demo
+![Demo gif](http://i.giphy.com/3o7TKSqlllY2MNNeEg.gif)

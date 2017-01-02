@@ -1,4 +1,4 @@
-package com.challenge2;
+package com.swipedemo;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "challenge2";
+        return "swipedemo";
     }
 }

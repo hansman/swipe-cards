@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Animated, Image, Text, View } from 'react-native';
+import autobind from 'autobind-decorator';
 import {branch} from 'baobab-react/higher-order';
 import Card from './Card.react';
 import Entypo from 'react-native-vector-icons/Entypo';
@@ -11,9 +12,6 @@ class Cards extends Component {
 
     constructor(props, context) {
         super(props, context);
-        this.prefetch = this.prefetch.bind(this);
-        this.cardRemoved = this.cardRemoved.bind(this);
-        this.onClickHandler = this.onClickHandler.bind(this);
         this.state = {
             cards: this.props.cards || []
         };
@@ -22,7 +20,7 @@ class Cards extends Component {
         this.setState({cards: nextProps.cards});
     }
 
-    prefetch(index) {
+    @autobind prefetch(index) {
         const cards = this.state.cards;
         let card = cards[index];
         if (card) {
@@ -38,11 +36,11 @@ class Cards extends Component {
         // TODO: Submit voting to a backend
     }
 
-    onClickHandler(left) {
+    @autobind onClickHandler(left) {
         if (left) {
-            this.refs.deck._forceLeftSwipe();
+            this.refs.stack._forceLeftSwipe();
         } else {
-            this.refs.deck._forceRightSwipe();
+            this.refs.stack._forceRightSwipe();
         }
     }
 
@@ -74,7 +72,7 @@ class Cards extends Component {
         );
     }
 
-    cardRemoved(index) {
+    @autobind cardRemoved(index) {
         if ((index + 1) == this.state.cards.length) {
             this.setState({cards: []});
             return;
@@ -93,7 +91,7 @@ class Cards extends Component {
         }
 
         return (<SwipeCards
-            ref='deck'
+            ref='stack'
             cards={cards}
             stack={true}
             stackDepth={2}

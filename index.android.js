@@ -3,9 +3,9 @@ import {AppRegistry, View} from 'react-native';
 import Cards from './src/components/Cards.react';
 import {root} from 'baobab-react/higher-order';
 import StateTree from './src/stores/StateTree';
-import Styles from './src/styles/StyleSheet'
+import Styles from './src/styles/StyleSheet';
 
-class Challenge2 extends Component {
+class SwipeDemo extends Component {
 
     componentWillMount() {
         console.disableYellowBox = true;
@@ -21,4 +21,4 @@ class Challenge2 extends Component {
 
 }
 
-AppRegistry.registerComponent('challenge2', () => root(StateTree, Challenge2));
+AppRegistry.registerComponent('SwipeDemo', () => root(StateTree, SwipeDemo));

@@ -1,5 +1,5 @@
 import config from '../config';
-import EgressActions from '../actions/EgressActions';
+import * as EgressActions from '../actions/EgressActions';
 import React, {Component} from 'react';
 import Styles from '../styles/StyleSheet';
 import { Button, Text, View } from 'react-native';

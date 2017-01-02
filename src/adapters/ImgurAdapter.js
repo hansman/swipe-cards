@@ -1,5 +1,5 @@
 import config from '../config';
-import IngressActions from '../actions/IngressActions';
+import * as IngressActions from '../actions/IngressActions';
 import Promise from 'bluebird';
 import url from 'url';
 

@@ -26,6 +26,7 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		21605D272F884175A6F0983D /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09E8F37BF919473FBE8F1B93 /* SimpleLineIcons.ttf */; };
+		344CB2A21E1B6A3500869C75 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344CB2A11E1B6A3500869C75 /* Images-2.xcassets */; };
 		3B22CED98B844354A0284292 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F11FCEBC06A64A71BC0F93E6 /* MaterialIcons.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		75AADA8CB5F74729B69AE337 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CA9881B730A4828933639CC /* Foundation.ttf */; };
@@ -208,6 +209,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SwipeDemo/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2CA9881B730A4828933639CC /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		344CB2A11E1B6A3500869C75 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images-2.xcassets"; path = "SwipeDemo/Images-2.xcassets"; sourceTree = "<group>"; };
 		3FEBEBDD682C4B27971B3E4A /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		49BADC073E3A4CDD9D17D5C7 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				344CB2A11E1B6A3500869C75 /* Images-2.xcassets */,
 			);
 			name = SwipeDemo;
 			sourceTree = "<group>";
@@ -495,11 +498,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 8EKH22H2PN;
+						DevelopmentTeam = MB3M5RKLLT;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 8EKH22H2PN;
+						DevelopmentTeam = MB3M5RKLLT;
 					};
 				};
 			};
@@ -733,6 +736,7 @@
 				1048E07DCBA24E4682E2AE5C /* EvilIcons.ttf in Resources */,
 				B2698CEBDB6F417A9DD057D9 /* FontAwesome.ttf in Resources */,
 				75AADA8CB5F74729B69AE337 /* Foundation.ttf in Resources */,
+				344CB2A21E1B6A3500869C75 /* Images-2.xcassets in Resources */,
 				0C7EBE17D19C4F798EC82F73 /* Ionicons.ttf in Resources */,
 				3B22CED98B844354A0284292 /* MaterialIcons.ttf in Resources */,
 				E78C30C36E034FD7B2784102 /* Octicons.ttf in Resources */,
@@ -805,7 +809,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 8EKH22H2PN;
+				DEVELOPMENT_TEAM = MB3M5RKLLT;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -827,7 +831,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 8EKH22H2PN;
+				DEVELOPMENT_TEAM = MB3M5RKLLT;
 				INFOPLIST_FILE = SwipeDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -843,10 +847,11 @@
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 8EKH22H2PN;
+				DEVELOPMENT_TEAM = MB3M5RKLLT;
 				INFOPLIST_FILE = SwipeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -854,6 +859,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hansman.swipedemo;
 				PRODUCT_NAME = SwipeDemo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -862,9 +868,10 @@
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8EKH22H2PN;
+				DEVELOPMENT_TEAM = MB3M5RKLLT;
 				INFOPLIST_FILE = SwipeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -872,6 +879,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hansman.swipedemo;
 				PRODUCT_NAME = SwipeDemo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -894,6 +902,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -941,6 +950,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;

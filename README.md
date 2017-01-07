@@ -25,7 +25,7 @@
 - [x] cards fetch error handling
 
 ## Test
-The app is tested on iphone6, iphone7 and iphone7+. It should work on android as is, however, has not been tested yet. There are no unit tests yet.
+The app is tested on iphone6, iphone7 and iphone7+ and Nexus5. There are no unit tests yet.
 
 ## Demo
 ![Demo gif](http://i.giphy.com/3o7TKSqlllY2MNNeEg.gif)

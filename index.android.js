@@ -21,4 +21,4 @@ class SwipeDemo extends Component {
 
 }
 
-AppRegistry.registerComponent('SwipeDemo', () => root(StateTree, SwipeDemo));
+AppRegistry.registerComponent('swipedemo', () => root(StateTree, SwipeDemo));

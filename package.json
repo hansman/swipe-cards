@@ -26,10 +26,48 @@
   "devDependencies": {
     "babel-jest": "17.0.2",
     "babel-preset-react-native": "1.9.0",
+    "enzyme": "^2.7.0",
     "jest": "17.0.3",
+    "react-dom": "^15.4.2",
     "react-test-renderer": "15.4.1"
   },
   "jest": {
-    "preset": "react-native"
+    "automock": false,
+    "timers": "fake",
+    "bail": false,
+    "cacheDirectory": "/tmp",
+    "collectCoverage": false,
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text"
+    ],
+    "globals": {},
+    "mocksPattern": "(?:[\\/]|^)__mocks__[\\/]",
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx"
+    ],
+    "modulePaths": [],
+    "modulePathIgnorePatterns": [],
+    "notify": false,
+    "preset": "react-native",
+    "resetModules": false,
+    "setupFiles": [],
+    "testEnvironment": "jsdom",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testRunner": "jasmine2",
+    "timers": "real",
+    "unmockedModulePathPatterns": [],
+    "verbose": true
   }
 }

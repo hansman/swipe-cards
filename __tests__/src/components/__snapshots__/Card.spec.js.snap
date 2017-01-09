@@ -1,0 +1,39 @@
+exports[`test renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "borderColor": "rgba(0, 0, 0, 0.2)",
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "height": 1174,
+      "justifyContent": "center",
+      "marginLeft": 195,
+      "marginTop": 30,
+      "shadowColor": "rgba(0, 0, 0, 0.5)",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 2,
+      },
+      "shadowOpacity": 1,
+      "width": 360,
+    }
+  }>
+  <Image
+    onError={[Function]}
+    resizeMode="contain"
+    source={
+      Object {
+        "uri": "undefinedasdf",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 5,
+        "height": 320,
+        "width": 320,
+      }
+    } />
+</View>
+`;

@@ -23,9 +23,13 @@
 - [x] display locked to portrait mode
 - [x] card render error handling
 - [x] cards fetch error handling
+- [x] unit tests
 
 ## Test
-The app is tested on iphone6, iphone7 and iphone7+ and Nexus5. There are no unit tests yet.
+`npm test`
+
+## Devices
+The app has been tested on iphone6, iphone7 and iphone7+ and Nexus5.
 
 ## Demo
 ![Demo gif](http://i.giphy.com/3o7TKSqlllY2MNNeEg.gif)

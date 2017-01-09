@@ -5,8 +5,11 @@ import {branch} from 'baobab-react/higher-order';
 import Card from './Card.react';
 import Entypo from 'react-native-vector-icons/Entypo';
 import Loading from './Loading.react';
+import PropTypes from 'baobab-react/prop-types';
+import StateTree from '../stores/StateTree';
 import Styles from '../styles/StyleSheet';
 import SwipeCards from 'react-native-swipe-cards';
+
 
 class Cards extends Component {
 
@@ -16,6 +19,13 @@ class Cards extends Component {
             cards: this.props.cards || []
         };
     }
+
+    getChildContext() {
+        return {
+            tree: StateTree
+        };
+    }
+
     componentWillReceiveProps(nextProps) {
         this.setState({cards: nextProps.cards});
     }
@@ -113,6 +123,10 @@ class Cards extends Component {
     }
 
 }
+
+Cards.childContextTypes = {
+    tree: PropTypes.baobab
+};
 
 export default branch({
     cards: ['cards']

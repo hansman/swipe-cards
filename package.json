@@ -19,7 +19,7 @@
     "nets": "^3.2.0",
     "react": "15.4.1",
     "react-native": "0.39.2",
-    "react-native-swipe-cards": "git@github.com:meteor-factory/react-native-tinder-swipe-cards.git#e8715763098e579859f2f29717c9d39b92cd9ea8",
+    "react-native-swipe-cards": "git@github.com:hansman/react-native-tinder-swipe-cards",
     "react-native-vector-icons": "^3.0.0",
     "url": "^0.11.0"
   },

@@ -118,6 +118,7 @@ class Cards extends Component {
             cardRemoved={this.cardRemoved}
             handleYup={this.handleYup}
             handleNope={this.handleNope}
+            smoothTransition={true}
         />);
 
     }

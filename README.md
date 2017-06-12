@@ -1,6 +1,6 @@
 # Swipe-Cards
 
-A tinder-like swipe demo for android and ios. The application pulls cards (images) from the imgur api and renders them via react-native. An user can vote for content by a tinder-like swipe animation. Please reach out to become a beta tester.
+A tinder-like swipe experience for android and ios. The application pulls cards (images) from the imgur api and renders them via react-native. An user can vote for content by a tinder-like swipe animation. Please reach out to become a beta tester.
 
 ## Build
 - `npm install`
